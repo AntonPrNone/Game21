@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Создаем элемент таймера
     const timerElement = document.createElement('div');
     timerElement.className = 'timer';
-    timerElement.innerHTML = '10:00';
+    timerElement.innerHTML = '20:00';
     document.querySelector('.level-indicator').after(timerElement);
 
     // Состояние игры
     let currentLevel = 1;
     let selectedTiles = [];
     let availableTiles = [];
-    let timeLeft = 10 * 60; // 10 минут в секундах
+    let timeLeft = 20 * 60; // 20 минут в секундах
     let timerInterval;
     let selectedShapeType = null; // Для Уровня 5: отслеживание выбранного типа фигуры
     let allShapeTypesOfCurrentType = []; // Для Уровня 5: хранение всех плиток текущего типа
