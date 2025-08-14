@@ -525,7 +525,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         levelComplete.classList.remove('show');
                         renderLevel(currentLevel);
                         updateAvailableTiles();
-                        timeLeft = 10 * 60;
+                        timeLeft = 20 * 60;
                         updateTimerDisplay();
                         document.getElementById('next-level-btn').style.display = 'inline-block';
                         newGameBtn.remove();
